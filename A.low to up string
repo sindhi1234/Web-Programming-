@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<title>CONVERT TO UPPER CASE</title> 
+<script> 
+ function upper() 
+ { 
+ var upper = document.getElementById("value1").value; 
+ var result=document.getElementById("answer"); 
+ result.value = upper.toUpperCase(); 
+ } 
+</script> 
+</head> 
+<body bgcolor="blue" text="white"> 
+ <h5><u>To Convert to uppercase</u></h5> 
+ Enter a String <input type = "text" 
+id="value1"name = "string" /> 
+ <input type = "button" value = "Convert 
+to Upper" onclick = "upper()"><br></br> 
+ Result <input type="text" id="answer" name="answer"/> 
+</body> 
+</html>
