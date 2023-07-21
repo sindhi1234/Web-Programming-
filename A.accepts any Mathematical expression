@@ -1,0 +1,23 @@
+<html> 
+<head> 
+<title> Expression Evaluation</title> 
+<script type="text/javascript"> 
+ function exp() 
+ { 
+ var n=document.myForm.value1.value;
+var result=eval(n); 
+ document.myForm.answer.value=result; 
+ } 
+</script> 
+</head> 
+ <body bgcolor="pink"> 
+ <h2><u>Evaluation of Expressions</u></h2> 
+<hr></hr> 
+<hr></hr> 
+ <form name="myForm"> 
+ Expression:<input type="text" name="value1"/>&nbsp&nbsp&nbsp&nbsp 
+ <input type="button" value="CALCULATOR" onclick="exp()"/><br></br> 
+ Result : <input type="text" name="answer"/> 
+ </form> 
+ </body> 
+ </html>
