@@ -14,3 +14,11 @@ alert(n+ " is Odd Number ");
 }
 else
 {
+alert(n+ " is Even Number");
+}
+}
+</script>
+</head>
+<body bg>
+</body>
+</html>
