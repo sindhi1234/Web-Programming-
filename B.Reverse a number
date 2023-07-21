@@ -1,0 +1,47 @@
+<html>
+
+<head>
+
+<script>
+
+function rev()
+
+{
+
+var a,no,b,temp=0;
+
+no=Number(document.getElementById("no_input").value);
+
+b=no;
+
+while(no>0)
+
+{
+
+a=no%10;
+
+no=parseInt(no/10);
+
+temp=temp*10+a;
+
+}
+
+alert(temp);
+
+}
+
+</script>
+
+</head>
+
+<body bgcolor="indigo">
+
+<h3>Reverse of a Number<h3>
+
+<h4>Enter any Number: <input id="no_input">
+
+<button onclick="rev()">Check</button></h4></br></br>
+
+</body>
+
+</html>
