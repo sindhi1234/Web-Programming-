@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>
+Mouse Positions
+</title>
+<script type="text/javascript">
+function findmousepositions(evt)
+{
+var xy="(" +evt.offsetX+","+evt.offsetY+")";
+document.getElementById("showXY").value=xy;
+}
+</script>
+</head>
+<body onmousemove="findmousepositions(event)" bgcolor="yellow">qq
+<form>
+Mouse Positions are: <input type="label" id="showXY" 
+size="8"/>
+</form>
+</body>
+</html>
