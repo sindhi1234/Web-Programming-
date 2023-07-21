@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function find()
+{
+var sum=0;
+var n=parseInt(myform.value1.value);
+while(n>0)
+{
+sum=sum+n%10;
+n=Math.floor(n/10);
+}
+alert("Sum of digits "+sum); 
+ }
+</script>
+</head>
+<body bgcolor="orange" >
+<h1><center><u>Sum of Digits</center></u></h1>
+<form name="myform">
+<center>Enter a Number: <input name="value1" type="text"/>
+<input name="b1" onclick="find()" type="button" value="Display" /></center>
+</form>
+</body>
+</html>
