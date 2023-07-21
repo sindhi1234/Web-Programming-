@@ -1,0 +1,22 @@
+<html> 
+<head> 
+<title> Mouse Over</title> 
+ <script type = "text/javascript"> 
+ function mouseover() 
+ { 
+ document.getElementById("image").src = "C:\\Users\\priya\\Desktop\\BCA Details\\WEB 
+PROGRAMMING\\WP Programs\\Part A\\Beauty.jpg"; 
+ } 
+ function mouseout() 
+ { 
+ document.getElementById("image").src = "C:\\Users\\priya\\Desktop\\BCA Details\\WEB 
+PROGRAMMING\\WP Programs\\Part A\\Scenery1.jpg"; 
+ } 
+ </script> 
+ </head> 
+ <body bgcolor="yellow"> 
+ <img src = "C:\Users\priya\Desktop\BCA Details\WEB PROGRAMMING\WP Programs\Part 
+A\Scenery1.jpg" width = "500" height = "500" id = "image" 
+ onmouseover="mouseover()" onmouseout="mouseout()"/> 
+ </body> 
+ </html>
